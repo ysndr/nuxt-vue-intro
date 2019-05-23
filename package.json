@@ -1,0 +1,26 @@
+{
+  "name": "nuxt-vue-intro",
+  "description": "Intro to nuxt/vue",
+  "version": "2.7.1",
+  "private": true,
+  "dependencies": {
+    "@nuxtjs/axios": "5.5.0",
+    "nuxt": "2.7.1",
+    "nuxt-property-decorator": "2.1.3",
+    "ts-node": "8.1.0",
+    "vuex-class": "0.3.2",
+    "bootstrap": "^4.1.3",
+    "bootstrap-vue": "^2.0.0-rc.11"
+  },
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "devDependencies": {
+    "@nuxt/typescript": "2.7.1",
+    "@types/node": "10.14.7",
+    "@types/webpack-env": "1.13.9"
+  }
+}
